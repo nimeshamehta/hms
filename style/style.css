@@ -1,0 +1,538 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: montserrat;
+}
+
+nav {
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: 3B73DD;
+    color: #CFE6F8;
+
+}
+
+.right-section ul {
+    display: flex;
+    column-gap: 2rem;
+}
+
+
+.nav-icon {
+    margin-right: 50px;
+    color: white;
+}
+
+
+
+.button-nav {
+    columns: 6;
+    align-items: center;
+    color: black;
+    background-color: white;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+
+/*.click-hos{ 
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+ul{
+    display: none;
+    position: absolute;
+    top: 0;
+} 
+
+.click-hos:hover ul{
+    display: block;
+}
+
+.click-dep{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+ul{
+    display: none;
+    position: absolute;
+    top: 0;
+}
+
+.click-dep:hover ul{
+    display: block;
+}*/
+
+
+
+.font-img {
+    height: 1440;
+    width: 758;
+}
+
+/* <!-- top-down section start --> */
+
+.speciality {
+    position: relative;
+    bottom: 600px;
+    left: 50px;
+    font-size: 12px;
+
+}
+.speciality,.h {
+    position: relative;
+    bottom: 550px;
+    left: 80px;
+    font-size: 12px;
+
+}
+
+.image {
+    position: relative;
+    top: 50px;
+    left: 100px;
+  
+   
+    padding: 0px;
+}
+
+
+
+.back {
+    height: 100px;
+    width: 150px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mid section start  */
+.botton-selection {
+    background-color: black;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+.botton input {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    padding: 20px;
+    margin: 5px;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    border: 2px solid white;
+    background-color: black;
+
+}
+
+.botton img {
+    position: relative;
+    left: 10px;
+    top: 50px;
+
+}
+
+.brain hr {
+    width: 300px;
+    position: relative;
+    left: 724px;
+    bottom: 715px;
+    color: #FFFFFF;
+}
+
+.brain p {
+    position: relative;
+    left: 1050px;
+    bottom: 740px;
+    color: #FFFFFF;
+}
+
+.noise hr {
+    width: 300px;
+    margin: 1px;
+    position: relative;
+    left: 725px;
+    bottom: 775px;
+    color: #FFFFFF;
+}
+
+.noise p {
+    position: relative;
+    left: 1050px;
+    bottom: 800px;
+    color: #FFFFFF;
+}
+
+.neck hr {
+    width: 290px;
+    margin: 0px;
+    position: relative;
+    left: 735px;
+    bottom: 835px;
+    color: #FFFFFF;
+}
+
+.neck p {
+    position: relative;
+    left: 1050px;
+    bottom: 860px;
+    color: #FFFFFF;
+}
+
+.heart hr {
+    width: 260px;
+    position: relative;
+    left: 760px;
+    bottom: 850px;
+    color: #FFFFFF;
+}
+
+.heart p {
+    position: relative;
+    left: 1050px;
+    bottom: 875px;
+    color: #FFFFFF;
+}
+
+.lung hr {
+    width: 260px;
+    position: relative;
+    left: 760px;
+    bottom: 920px;
+    color: #FFFFFF;
+}
+
+.lung p {
+    position: relative;
+    left: 1050px;
+    bottom: 945px;
+    color: #FFFFFF;
+}
+
+.elbow hr {
+    width: 225px;
+    position: relative;
+    left: 800px;
+    bottom: 950px;
+    color: #FFFFFF;
+}
+
+.elbow p {
+    position: relative;
+    left: 1050px;
+    bottom: 975px;
+    color: #FFFFFF;
+}
+
+.stomach hr {
+    width: 290px;
+    position: relative;
+    left: 740px;
+    bottom: 1000px;
+    color: #FFFFFF;
+}
+
+.stomach p {
+    position: relative;
+    left: 1050px;
+    bottom: 1025px;
+    color: #FFFFFF;
+}
+
+.hip hr {
+    width: 255px;
+    position: relative;
+    left: 775px;
+    bottom: 1060px;
+    color: #FFFFFF;
+}
+
+.hip p {
+    position: relative;
+    left: 1055px;
+    bottom: 1085px;
+    color: #FFFFFF;
+}
+
+.knee hr {
+    width: 255px;
+    position: relative;
+    left: 760px;
+    bottom: 950px;
+    color: #FFFFFF;
+}
+
+.knee p {
+    position: relative;
+    left: 1050px;
+    bottom: 972px;
+    color: #FFFFFF;
+}
+
+.ankle hr {
+    width: 280px;
+    position: relative;
+    left: 740px;
+    bottom: 940px;
+    color: #FFFFFF;
+}
+
+.ankle p {
+    position: relative;
+    left: 1040px;
+    bottom: 965px;
+    color: #FFFFFF;
+}
+
+/* right-section-man-structure */
+.eye hr {
+    width: 300px;
+    position: relative;
+    left: 380px;
+    bottom: 1625px;
+    color: #FFFFFF;
+}
+
+.eye p {
+    position: relative;
+    left: 330px;
+    bottom: 1650px;
+    color: #FFFFFF;
+}
+
+.mouth hr {
+    width: 310px;
+    position: relative;
+    left: 380px;
+    bottom: 150px;
+    color: #FFFFFF;
+}
+
+.mouth p {
+    position: relative;
+    left: 370px;
+    bottom: 1095px;
+    color: #FFFFFF;
+}
+
+.shoulder hr {
+    width: 230px;
+    position: relative;
+    right: 250px;
+    bottom: 1060px;
+    color: #FFFFFF;
+}
+
+.shoulder p {
+    position: relative;
+    right: 50px;
+    top: 155px;
+    color: #FFFFFF;
+}
+
+.ear hr {
+    width: 290px;
+    position: relative;
+    right: 240px;
+    bottom: 1600px;
+    color: #FFFFFF;
+}
+
+.ear p {
+    position: relative;
+    right: 290px;
+    bottom: 1630px;
+    color: #FFFFFF;
+}
+
+.liver hr {
+    width: 290px;
+    position: relative;
+    left: 420px;
+    bottom: 980px;
+    color: #FFFFFF;
+}
+
+.liver p {
+    position: relative;
+    left: 370px;
+    bottom: 990px;
+    color: #FFFFFF;
+}
+
+.arm hr {
+    width: 230px;
+    position: relative;
+    left: 420px;
+    bottom: 990px;
+    color: #FFFFFF;
+}
+
+.arm p {
+    position: relative;
+    left: 370px;
+    bottom: 1000px;
+    color: #FFFFFF;
+}
+
+.kidney hr {
+    width: 290px;
+    position: relative;
+    left: 420px;
+    bottom: 980px;
+    color: #FFFFFF;
+}
+
+.kidney p {
+    position: relative;
+    left: 360px;
+    bottom: 990px;
+    color: #FFFFFF;
+}
+
+.thigh hr {
+    width: 290px;
+    position: relative;
+    left: 420px;
+    bottom: 850px;
+    color: #FFFFFF;
+}
+
+.thigh p {
+    position: relative;
+    left: 360px;
+    bottom: 860px;
+    color: #FFFFFF;
+}
+
+.foot hr {
+    width: 290px;
+    position: relative;
+    left: 420px;
+    bottom: 755px;
+    color: #FFFFFF;
+}
+
+.foot p {
+    position: relative;
+    left: 360px;
+    bottom: 765px;
+    color: #FFFFFF;
+}
+
+
+/* footer section */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background: #004183;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.left {
+    display: flex;
+    gap: 10rem;
+    position: absolute left;
+    line-height: 3;
+    padding: 20px;
+    margin: 20px;
+    color: #CFE6F8;
+    font-size: 17px;
+
+}
+
+.right {
+    display: inline-block;
+    line-height: 3;
+    position: relative;
+    right: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    color: #CFE6F8;
+}
+
+.right h3 {
+    position: relative;
+    left: 140px;
+    top: 0;
+
+}
+
+form input {
+    width: 283px;
+    height: 65px;
+    text-align: center;
+    position: relative;
+    left: 140px;
+    background-color: #355695;
+    font-size: 15px;
+    line-height: 1px;
+}
+
+
+.recp form {
+    width: 616px;
+    height: 137px;
+
+}
+
+.down-section {
+
+    position: relative;
+    right: 700px;
+    top: 9rem;
+    font-size: 17px;
+    margin: 100px;
+    /* flex-grow: ; */
+
+}
+
+.down-icon {
+    display: flex;
+    position: absolute;
+    left: 300px;
+    gap: 1rem;
+    bottom: 2.5rem;
+}
